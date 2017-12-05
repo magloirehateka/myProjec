@@ -7,6 +7,6 @@ after_script:
     - echo "Finish"
     
 build:
-    stage:build
+    stage: build
     script:
         - ./simple-script.bash
